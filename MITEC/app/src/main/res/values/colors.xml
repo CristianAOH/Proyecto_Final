@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAB00</color>
+    <color name="colorPrimaryDark">#FFAB00</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimaryYellow">#FFC107</color>
+    <color name="colorPrimaryDarkYellow">#FFAB00</color>
+    <color name="colorAccentYellow">#000000</color>
+
+    <color name="colorBackBtn">#FFC107</color>
+
+    <color name="colorBackTxt">#ffffff</color>
+</resources>

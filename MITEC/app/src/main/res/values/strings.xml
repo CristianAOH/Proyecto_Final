@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Mitec</string>
+    <string name="title_activity_home">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="user_name">user_name</string>
+    <string name="user_carrer">user_carrer</string>
+    <string name="title_activity_sii">SII ITCHII</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+    <!-- STRINGS PARA PONER EN EL MENU CONTEXTUAL PARA LA SELECCION DE IMAGEN DE PERFIL -->
+    <string name="munu_titulo">SELECCIONE</string>
+    <string name="menu_cargar">Nueva imagen</string>
+    <string name="menu_eliminar">Eliminar foto</string>
+
+    <!-- STRINGS PARA PONER EN EL CUADRO DE DIALOGO SERVIDOR -->
+    <string name="dialog_titulo">ERROR DE CONEXION</string>
+    <string name="dialog_mensaje">No se pudo establecer comunicacón con el servidor, intente de nuevo más tarde.</string>
+
+    <!-- STRINGS PARA PONER EN EL CUADRO DE DIALOGO ERROR USUARIO LOGUEO -->
+    <string name="dialog_userTitulo">ERROR DE VERIFICACIÓN</string>
+    <string name="dialog_userMensaje">La contraseña que se ingresó no es la correcta, favor de verificar.</string>
+</resources>

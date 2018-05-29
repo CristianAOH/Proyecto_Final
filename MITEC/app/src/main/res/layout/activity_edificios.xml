@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mapa"
+    tools:context="itchihuahua.mitec.com.mitec.Edificios">
+
+    <Button
+        android:id="@+id/btn_admin"
+        android:layout_width="86dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:onClick="admin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/transparent"
+        android:onClick="maestros"
+        app:layout_constraintStart_toEndOf="@+id/btn_admin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="42dp"
+        android:background="@android:color/transparent"
+        android:onClick="edi_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_d"
+        android:layout_width="41dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="88dp"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:background="@android:color/transparent"
+        android:onClick="edi_d"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_f"
+        android:layout_width="43dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="88dp"
+        android:background="@android:color/transparent"
+        android:onClick="edi_f"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toEndOf="@+id/btn_d"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="43dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="85dp"
+        android:background="@android:color/transparent"
+        android:onClick="metodos"
+        app:layout_constraintStart_toEndOf="@+id/btn_f"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_g"
+        android:layout_width="44dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:onClick="edi_g"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="130dp"
+        android:background="@android:color/transparent"
+        android:onClick="edi_h"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/transparent"
+        android:onClick="cafe"
+        app:layout_constraintStart_toEndOf="@+id/btn_g"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="24dp"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:background="@android:color/transparent"
+        android:onClick="edi_b"
+        app:layout_constraintStart_toEndOf="@+id/btn_g"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/transparent"
+        android:onClick="biblio"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="76dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/transparent"
+        android:onClick="centro"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="146dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/papas"
+        android:text="Expendedora de papitas"
+        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        android:onClick="papas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/soda"
+        android:text="Expendedora de refrescos"
+        android:textSize="10sp"
+        android:onClick="sodas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+</android.support.constraint.ConstraintLayout>
